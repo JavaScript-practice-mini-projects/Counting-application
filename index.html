@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter App</title>
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css  -->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <div class="logo"><a href="./index.html">Count</a></div>
+            <ul>
+                <li><a class="active" href="#">counter</a></li>
+                <li><a href="./contact.html">contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="counter-container">
+            <div class="limit">
+                <p>Min: -5 Max: 10</p>
+            </div>
+            <i class='bx bx-reset'><span class="resetText">Reset</span></i>
+            <div class="counting"></div>
+            <div class="buttons">
+                <div class="minusButton" > <i id="minusButton" class='bx bx-minus-circle'></i> </div>
+                <div > <i id="plusButton" class='bx bx-plus-circle'></i> </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <!-- javaScript file -->
+     <script src="./app.js"></script>
+</body>
+</html>

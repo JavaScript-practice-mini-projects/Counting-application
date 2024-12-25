@@ -1,0 +1,44 @@
+.main-header{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.img{
+    width: 200px;
+    height: 200px;
+    user-select: none;
+}
+.img img{
+    border-radius: 50%;
+    border: 5px solid #424250;
+    outline: 5px solid #fafafa;
+    
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.social-media i{
+    font-size: 2rem;
+    transition: all 0.3s ease;
+}
+.social-media i:hover{
+    color: #31C48D;
+}
+.gmail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+.gmail i{
+    font-size: 1.5rem;
+    margin-right: 0.4rem;
+}
